@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "component/custom-nav/custom-nav",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/classes/classes",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+		"color":"#D2D2D2",
+		"selectedColor":"#D43D37",
+		"backgroundColor":"#fff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/images/book.png",
+				"selectedIconPath":"static/images/book-on.png"
+			},
+			{
+				"pagePath":"pages/classes/classes",
+				"text":"分类",
+				"iconPath":"static/images/classes.png",
+				"selectedIconPath":"static/images/classes-on.png"
+			},
+			{
+				"pagePath":"pages/index/index",
+				"text":"社区",
+				"iconPath":"static/images/others.png",
+				"selectedIconPath":"static/images/others-on.png"
+			},
+			{
+				"pagePath":"pages/index/index",
+				"text":"信息",
+				"iconPath":"static/images/message.png",
+				"selectedIconPath":"static/images/message-on.png"
+			},
+			{
+				"pagePath":"pages/index/index",
+				"text":"我",
+				"iconPath":"static/images/me.png",
+				"selectedIconPath":"static/images/me-on.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,200 @@
+<template>
+	<view>
+		 <customNav
+		 mode="tool"
+		 bgcolor="#D63E38"
+		 title="测试"
+		 :scrollTop="scrollTop"
+		 
+		 />
+		 <view class="main">
+		 	<view>
+		 		1111111111111111123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 	<view>
+		 		123
+		 	</view>
+		 </view>
+	</view>
+</template>
+
+<script>
+	import customNav from '../../component/custom-nav/custom-nav.vue'
+	export default {
+		components:{
+			customNav
+		},
+		data() {
+			return {
+				title: 'Hello',
+				scrollTop:0
+			}
+		},
+		onLoad() {
+		
+		},
+		methods: {
+			gteTool(e){
+				console.log(e)
+			}
+
+		},
+		onPageScroll(e){
+			this.scrollTop = e.scrollTop
+		}
+	}
+</script>
+
+<style>
+ 
+</style>
